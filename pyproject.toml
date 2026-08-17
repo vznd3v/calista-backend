@@ -1,0 +1,27 @@
+[project]
+name = "backend"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "vzn.d3v", email = "emiliendaix@hotmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "asyncio>=4.0.0",
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "pydantic>=2.13.4",
+    "pydantic-ai>=2.31.0",
+    "pydantic-ai-harness>=0.21.0",
+    "python-dotenv>=1.2.3",
+    "uvicorn>=0.52.3",
+]
+
+[project.scripts]
+backend = "backend.main:main"
+
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
