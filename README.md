@@ -132,6 +132,8 @@ src/test/
 
 ## architecture
 [Voir l'architecture](./architecture.md)
+<br/>
+
 [Voir l'architecture fr](./architecture_fr.md)
 
 <p align="center">
