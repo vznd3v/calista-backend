@@ -130,6 +130,10 @@ src/test/
 
 ---
 
+## architecture
+[Voir l'architecture](./architecture.md)
+[Voir l'architecture fr](./architecture_fr.md)
+
 <p align="center">
   Made with ❤️ by <a href="https://github.com/vzn">vzn.d3v</a>
 </p>
